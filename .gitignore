@@ -1,0 +1,7 @@
+centools_pycen/__pycache__/*
+centools_pycen/OUTPUT/*
+.ipynb_checkpoints/*
+data/*
+.DS_Store
+test_data/*
+test/*
