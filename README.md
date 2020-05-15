@@ -17,6 +17,14 @@
 
 	> pip3 install -r requirements.txt -U
 
+**4. Download data.**     
+
+Download two directories in the centools_pycen folder.     
+
+1. [data](https://gitlab.ebi.ac.uk/petsalakilab/centools_pycen/tree/master/data)    
+2. [test_data](https://gitlab.ebi.ac.uk/petsalakilab/centools_pycen/tree/master/test_data)    
+
+
 **2. Prepare you input arguments:**
 
 **GENES** : One of the arguments **-gene** or **-genefile** *should* be specified. In here the user has an opportunity to give only one interested gene (**-gene**) or a list of genes as a ".csv" file (**-genefile**).
@@ -46,14 +54,6 @@
 
 **MUTATION** : If the user wants to use the pre-defined **-mut** context, then the separation type should be specified with one of the **-hotspot**, **-oncogenic**. These options separate the cell lines based on the presence of any mutation on the hotspot or oncogenic mutation carrying query genes.  
 	
-
-**\*. test data **     
-
-Download two directories in the centools_pycen folder:     
-
-[data](https://gitlab.ebi.ac.uk/petsalakilab/centools_pycen/tree/master/data)    
-[test_data](https://gitlab.ebi.ac.uk/petsalakilab/centools_pycen/tree/master/test_data)    
-
 **4. Examples:**
 
 *BRAF* CEN in the context of *hotspot* *mutation* of *BRAF* gene  in all *tissue* types from the *BROAD* project data with *BRAF_Mutation_Tissue_BROAD* result file name:	
