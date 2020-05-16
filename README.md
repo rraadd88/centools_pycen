@@ -7,7 +7,7 @@
 **1. Download the project.**
 
 	> cd ~/
-	> git clone git@gitlab.ebi.ac.uk:petsalakilab/centools_pycen.git
+	> git clone https://github.com/rraadd88/centools_pycen.git
 
 **2. Go to the folder.**
 
